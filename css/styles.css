@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.ping1,.ping2,.ping3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+/* 
+fixed = paralax
+scroll = normal
+*/
+    background-attachment: fixed;
+}
+
+.header{ 
+    color: white;
+    border: 1px solid black;
+    padding: 35px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.603);
+    background-color: rgba(17, 17, 17, 0.74);
+}
+
+.ping1{
+    background-image: url('../img/img5.jfif');
+    min-height: 100%;
+}
+
+.ping2{
+    background-image: url('../img/city2.jfif');
+    min-height: 400px;
+}
+
+.ping3{
+    background-image: url('../img/city3.jfif');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+  
+}
+
+.section-dark {
+    background-color: #282e34;
+    color:#ddd;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    padding: 20px;
+
+}
+
+.ptext .border .trans {
+    background-color: transparent;
+}
+
+
+
+#addressBook {
+    
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    
+}
+
+.group3{
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+}
